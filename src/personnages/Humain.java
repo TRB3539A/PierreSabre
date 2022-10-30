@@ -40,4 +40,12 @@ public class Humain {
 			parler("Je n'ai plus que " + this.argent + " sous en poche. Je ne peux même pas m'offrir " + bien + " à " + prix + " sous.");
 		}
 	}
+	
+	public void gagnerArgent(int gain) {
+		this.argent += gain;
+	}
+	
+	public void perdreArgent(int perte) {
+		this.argent -= perte; 
+	}
 }
